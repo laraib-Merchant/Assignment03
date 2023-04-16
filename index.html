@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment #03</title>
+        <script src="./app.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <label for="genre">GENRE:</label>
+            <select name="genre" id="genre">
+              <!--  <option value="selectgerne">--selectgerne--</option> --> 
+                <option value="all">all</option>
+            </select>
+            <label for="language">LANGUAGE:</label>
+            <select name="language" id="language">
+              <!--  <option value="selectlanguage">--selectlanguage--</option> --> 
+                <option value="all">all</option>
+            </select>
+            <label for="year">YEAR:</label>
+            <select name="year" id="year">
+             <!--   <option value="selectyear">--selectyear--</option> --> 
+                <option value="all">all</option>
+            </select>
+            <label for="rating">RATING:</label>
+            <select name="rating" id="rating">
+             <!--   <option value="selectrating">--selectrating--</option> --> 
+                <option value="all">all</option>
+            </select>
+
+            <br><br>
+
+            <table id="recommendations">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Release Year</th>
+                    <th>Rating</th>
+                    <th>Language</th>
+                    <th>Genres</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Movie recommendations will be dynamically updated here -->
+                </tbody>
+              </table>
+        </div>
+    </body>
+</html>
